@@ -1,0 +1,7 @@
+Colocar seu projeto em um repositório git:
+
+* Cria o repositório no github
+* cria o projeto em sua maquina (De preferencia com o mesmo nome do repositório criado no github)
+* CMD - dentro da pasta do projeto insira o comando: git init
+* CMD - Ex comando: git config --global --add safe.directory C:/Users/andrei/source/repos/ProjectFolder (Colocar o nome da pasta criada do seu projeto)
+* CMD - Ex comando: git remote add origin https://github.com/AndreiCastro/NameRepository.git (repositorio criado no git hub)
