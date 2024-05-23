@@ -5,3 +5,11 @@ Colocar seu projeto em um repositório git:
 * CMD - dentro da pasta do projeto insira o comando: git init
 * CMD - Ex comando: git config --global --add safe.directory C:\Users\andrei\source\repos\ProjectFolder (Colocar o nome da pasta criada do seu projeto)
 * CMD - Ex comando: git remote add origin https://github.com/AndreiCastro/NameRepository.git (repositorio criado no git hub)
+
+
+.GITIGNORE
+* Para add o .gitignore para extesão de arquivo add *.ext. ex: *.txt
+* Remover conteúdo dentro de uma pasta: FolderName/*
+* PS: Se foi gerado arquivos de alteração e depois foi add eles no .gitignore para esses arquivos, deve limpar o cache:
+  git rm --cached file. Se for pasta com varios files git rm --cached FolderName/*
+  git rm file. Mesma coisa se for varios files inside folder
