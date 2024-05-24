@@ -11,5 +11,7 @@ Colocar seu projeto em um repositório git:
 * Para add o .gitignore para extesão de arquivo add *.ext. ex: *.txt
 * Remover conteúdo dentro de uma pasta: FolderName/*
 * PS: Se foi gerado arquivos de alteração e depois foi add eles no .gitignore para esses arquivos, deve limpar o cache:
-  git rm --cached file. Se for pasta com varios files git rm --cached FolderName/*
-  git rm file. Mesma coisa se for varios files inside folder
+  git rm -r --cached file. Se for pasta com varios files git rm -r --cached FolderName/
+    Assim os indices são deletados. Se quiser comitt somente eles, ou comitt junto com as outras alterações
+    Após o commit as alterações não serão mais listadas.
+
